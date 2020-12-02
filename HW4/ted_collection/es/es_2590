@@ -1,0 +1,45 @@
+El día de hoy hablaré de la IA y de nosotros. Los investigadores de IA siempre han dicho que los humanos no debemos preocuparnos, porque los trabajos de baja categoría serán ocupados por las máquinas. ¿Es eso de verdad así? También han dicho que la IA creará nuevos empleos, así que aquellos que pierdan su trabajo, encontrarán uno nuevo. Claro. Pero la verdadera pregunta es: ¿Cuántos de los que pierdan su trabajo por la IA lograrán conseguir uno nuevo, especialmente siendo la IA más inteligente y capaz de aprender mejor que la mayoría de nosotros?
+Déjenme hacerles una pregunta: ¿Cuántos de Uds. piensan que una IA aprobará un examen de admisión de una universidad de élite para el 2020? No muchos. De acuerdo. Algunos podrán decir, "¡Claro que sí!". Ahora la singularidad es el punto. Otros podrán decir, "Tal vez, ya que una IA venció a un gran jugador de Go". Y otros dirán, "No, nunca. Jamás". Quiere decir que todavía no sabemos la respuesta, ¿cierto? Es por eso que inicié el Proyecto Robot Todai, crear una IA que apruebe el examen de admisión de la Universidad de Tokio, la mejor en Japón.
+Este es nuestro Robot Todai. Y claro, el cerebro del robot trabaja en un servidor de manera remota. Ahora está escribiendo un ensayo de 600 palabras sobre comercio marítimo en el siglo XVII. ¿Qué les parece?
+¿Por qué usé como punto de referencia el examen de admisión? Porque pensé que teníamos que estudiar el desempeño de la IA en comparación con los humanos, en especial en las escalas y experiencia que se cree que son adquiridas solo por los humanos y solo a través de la educación. Para ingresar a Todai, la Universidad de Tokio, tienen que pasar dos diferentes tipos de exámenes. El primero es un examen estandarizado nacional de opción múltiple. Consta de siete materias y uno debe tener una calificación alta. Diría que es necesario alrededor de 84 % para poder pasar a la segunda etapa, un examen escrito preparado por Todai.
+Primero explicaré cómo funciona una IA moderna, tomando el reto de "Jeopardy!" como ejemplo. Esta es una típica pregunta de "Jeopardy!": "La última sinfonía de Mozart comparte su nombre con este planeta". Curiosamente, las preguntas de "Jeopardy!" siempre tienden a terminar con "este": "este" planeta, "este" país, "este" músico de rock, y así. Quiero decir, que "Jeopardy!" no hace una gran variedad de preguntas diferentes, solo de un tipo, las llamamos "preguntas factoides".
+Por cierto, ¿saben la respuesta? Si no la conocen y quieren saberla, ¿qué es lo que harían? Lo buscan en Google, ¿no? Claro. ¿Por qué no? Pero necesitas elegir las palabras clave apropiadas como "Mozart", "última" y "sinfonía" para hacer la búsqueda. Básicamente la máquina hace lo mismo. Entonces nos aparece primero esta página de Wikipedia. Luego la máquina lee la página. No, no.
+Desafortunadamente, ninguna IA moderna, incluida Watson, Siri y Robot Todai, puede leer. Pero son buenas optimizando sus búsquedas. Reconocerán que las palabras clave "Mozart", "última" y "sinfonía" aparecerán varias veces por aquí. Si encuentra una palabra que es un planeta y es concurrente con las palabras clave, debe de ser la respuesta. Así es como, en este caso, Watson encuentra la respuesta "Júpiter".
+El Robot Todai trabaja de manera similar, pero es un poco más listo respondiendo preguntas "sí o no" de historia como, " 'Carlomagno ahuyentó a los Magiares'. ¿Esto es verdadero o falso?". Nuestro robot produce una pregunta factoide, como, "Carlomagno ahuyentó [este tipo de persona]" por sí mismo. Entonces, aparece primero "Ávaros" pero no "Magiares". Es probable que el enunciado sea falso. Nuestro robot no lee, no comprende, pero es correcto estadísticamente en muchos casos.
+Para la segunda etapa, el examen escrito, se requiere escribir un ensayo de 600 palabras como este:
+[Habla del alza y caída del comercio marítimo en el Este y Sureste de Asia en el siglo XVII...]
+y como mostré antes, nuestro robot tomó enunciados de libros de texto y de Wikipedia, los combinó, y los optimizó para producir un ensayo sin comprender nada.
+(Risas)
+Pero, sorprendentemente, escribió un bastante mejor ensayo que los de muchos estudiantes.
+(Risas)
+¿Qué tal las matemáticas? Una máquina que automáticamente resuelve problemas ha sido un sueño desde el nacimiento de la palabra "inteligencia artificial", pero se ha mantenido al nivel de aritmética por mucho tiempo. El año pasado, finalmente logramos desarrollar un sistema que resuelve por completo problemas de nivel preuniversitarios como este. Este problema originalmente está escrito en japonés, y tuvimos que enseñarle 2000 axiomas matemáticos y 8000 palabras japonesas para poder aceptar problemas escritas en su lenguaje natural. Y ahora traduce los problemas originales a fórmulas legibles para la máquina. Es raro, pero creo que ahora está lista para resolverlo. Resuélvelo. ¡Sí! Ahora ejecuta computación simbólica. Más raro, es que probablemente esta es la parte más divertida para la máquina.
+(Risas)
+Ahora produce la respuesta correcta, aunque su prueba es imposible de leer, hasta para los matemáticos. El año pasado nuestro robot estuvo entre los mejores, entre el 1 %, en la segunda etapa, en el examen escrito de matemáticas.
+(Aplausos)
+Gracias.
+Así que, ¿ingresó a Todai? No, no como lo esperaba. ¿Por qué? Porque no entiende ningún significado. Déjenme mostrarles un error típico que cometió en el examen de inglés.
+[Nate: Ya casi llegamos a la librería. Solo unos minutos más. Sunil: Espera. ______ . Nate: ¡Gracias! Siempre sucede eso...]
+Dos personas hablan. Para nosotros, que entendemos la situación.
+[1. "Caminamos por mucho tiempo". 2. "Ya casi llegamos". 3."Tus zapatos parecen caros". 4."Tu nudo está suelto".]
+Es obvio que la respuesta correcta es la cuatro, ¿cierto? Pero el Robot Todai escogió la dos, a pesar de aprender 15 mil millones de enunciados en inglés utilizando tecnologías para profundizar su aprendizaje. Entonces ahora comprenderán lo que dije: la IA moderna no lee, no comprende. Solo aparenta que sí lo hace.
+Esta es la gráfica de distribución de medio millón de estudiantes que hicieron el mismo examen que el robot. Nuestro Robot Todai está con el 20 % de los mejores estudiantes, y fue capaz de aprobar más del 60 % de las universidades en Japón... pero no Todai. Pero noten cómo sobrepasa la zona con mayor cantidad de los que serán empleados de oficina.
+Pueden pensar que estaba contenta ya que mi robot sobrepasó a estudiantes de todos lados. En cambio, estaba alarmada. ¿Cómo era posible que esta máquina sin inteligencia superara estudiantes... a nuestros hijos? ¿Cierto? Decidí investigar qué pasaba con los seres humanos. Tomé cientos de enunciados de libros de textos de preparatoria e hice sencillos exámenes de opción múltiple, y pedí a miles de estudiantes de preparatoria que los respondieran.
+Aquí hay un ejemplo:
+[El budismo se esparció a..., la cristiandad a... y Oceanía., y el Islam a...]
+Claro, los problemas originales están escritos en japonés, su lengua natal.
+[ ______ se esparció a Oceanía. 1. Hinduismo. 2. Cristiandad 3. Islam 4. Budismo ]
+Obviamente Cristiandad es la respuesta, ¿cierto? ¡Está escrita! Y el Robot Todai también escogió la respuesta correcta. Pero un tercio de los estudiantes de preparatoria fallaron esta pregunta. ¿Piensan que es solo el caso en Japón? No lo creo, porque Japón siempre está en los rangos más altos en las pruebas de OECD PISA, que miden el desempeño de estudiantes de 15 años en matemáticas, ciencia y lectura cada tres años.
+Hemos estado creyendo que cualquiera puede aprender y aprender bien, siempre que le proporcionemos buenos materiales gratuitos en internet para su aprendizaje y tengan acceso en cualquier parte. Pero tales maravillosos materiales solo benefician a aquellos que leen bien, y el porcentaje de los que leen bien es más bajo de lo que esperamos. Cómo los humanos coexistirán con la IA es algo que tenemos que pensar cuidadosamente, basándonos en evidencias sólidas. Al mismo tiempo, tenemos que pensarlo rápidamente porque el tiempo se nos está acabando.
+Gracias.
+(Aplausos)
+Chris Anderson: Noriko, gracias.
+Noriko Arai: Gracias.
+CA: En tu charla, bellamente nos has dado una explicación de cómo piensa una IA, lo que hacen de manera asombrosa y lo que no puede hacer. Pero, si te entendí bien, ¿piensas que debemos tener una urgente revolución educativa para ayudar a los chicos a hacer cosas que los humanos pueden mejor que las IA?
+NA: Sí, sí, sí. Porque los humanos entendemos el significado. Eso es algo de lo que carece mucho la IA. Pero muchos estudiantes solo cargan el conocimiento sin comprender el significado de ese conocimiento, y eso no es conocimiento, solo es memorizar, y una IA puede hacer lo mismo. Así que tenemos que pensar en un nuevo estilo de educación.
+CA: Un cambio de conocimiento, de memorización a significado.
+NA: Así es.
+CA: Bueno, un reto para los educadores. Muchas gracias.
+NA: Muchas gracias. Gracias.
+(Aplausos)
+TED.com translations are made possible by volunteer translators. Learn more about the Open Translation Project.
+© TED Conferences, LLC. All rights reserved.

@@ -1,0 +1,35 @@
+Greg Gage: La lectura del pensamiento. Se ve en películas de ciencia ficción, las máquinas que nos leen la mente. Pero existen aparatos hoy que pueden leer la actividad eléctrica del cerebro. Lo llamamos el EEG. ¿Hay información contenida en estas ondas cerebrales? ¿Podríamos programar una computadora para leer los pensamientos?
+Mi amigo Nathan está intentando hackear el EEG para construir una máquina que pueda leer la mente.
+[Neurociencia casera]
+Así funciona el EEG: dentro de la cabeza está el cerebro, y el cerebro se compone de miles de millones de neuronas. Cada neurona transmite un mensaje eléctrico la una a la otra. Estos pequeños mensajes pueden combinarse para formar una onda eléctrica que se detecta en un monitor. Tradicionalmente, el EEG nos puede decir cosas generales, por ejemplo, si uno está dormido o despierto. Pero ¿nos puede decir algo más? ¿Puede realmente leer los pensamientos? Lo vamos a comprobar. No empezaremos con pensamientos complejos; haremos algo muy sencillo. ¿Podemos interpretar lo que alguien ve utilizando solo sus ondas cerebrales?
+Nathan empezará por pegar electrodos en la cabeza de Christy.
+Nathan: Mi vida está enredada.
+(Risas)
+GG: Luego le mostrará una serie de imágenes de cuatro categorías diferentes.
+Nathan: Una cara, una casa, un paisaje e imágenes raras.
+GG: Mientras le mostramos a Christy centenares de estas imágenes, se están registrando las ondas eléctricas en la computadora de Nathan. Queremos ver si podemos detectar información visual sobre las fotos contenida en las ondas cerebrales, así que al terminar, sabremos si el EEG nos puede decir qué tipo de imagen Christy está mirando. Y si este es el caso, cada categoría debe desencadenar una señal diferente del cerebro.
+Bien, recolectamos todos los datos sin procesar del EEG, y estos son los resultados. Se ven bastante desorganizados, entonces ordenémoslos por imagen. Aún está demasiado caótico para ver alguna diferencia, pero si igualamos el EEG entre todos los tipos de imágenes y las alineamos según el momento en que la imagen apareció podemos normalizar el caos, y dentro de poco, vemos que unas tendencias principales emergen para cada categoría.
+Las señales todavía se ven bastante similares. Mirémoslas más de cerca. Como a cien milisegundos después de que sale la imagen, vemos un aumento positivo en cada uno de los cuarto casos. Lo llamamos el P100, y creemos que eso es lo que pasa en el cerebro cuando reconoces un objeto. Pero ¡guau!, mira la señal para la cara. Parece diferente de las otras. Hay una baja a unos 170 milisegundos después de que sale la imagen.
+¿Qué estará pasando aquí? Los estudios demuestran que el cerebro tiene muchas neuronas dedicadas al reconocimiento de caras humanas. Entonces esta caída de N170 podrían ser todas esas neuronas que se activan a la vez en el mismo sitio, Y podemos detectarlo en el EEG.
+Hay dos puntos claves aquí. Uno: los ojos no pueden detectar diferencias en los patrones sin que se iguale el ruido. Y dos: aun después de que se elimina el ruido, los ojos solo pueden detectar las señales asociadas con las caras.
+Entonces, recurrimos al aprendizaje automático. Los ojos no son muy buenos para identificar patrones entre datos caóticos, pero los algoritmos de aprendizaje automático están precisamente para eso. Entonces, ¿podríamos tomar muchas imágenes y datos y entrarlos a una computadora para programarla a interpretar lo que Christy está viendo en tiempo real?
+Tratamos de escribir la información que sale de su EEG en tiempo real, y predecir lo que sus ojos están viendo. Y si funciona, entonces cada vez que le toca una imagen del paisaje, debe decir: paisaje, paisaje, paisaje, paisaje. Y cuando es una cara: cara, cara, cara, cara. Pero no está funcionando exactamente así, aparentemente.
+(Risas)
+Muy bien.
+Christy: ¿Qué está pasando aquí?
+GG: Necesitamos una nueva carrera, creo.
+(Risas)
+GG: Bien, eso fue un enorme fracaso. Pero seguimos curiosos: ¿Hasta dónde podríamos llevar esta tecnología? Revisamos lo que habíamos hecho. Notamos que los datos entraban a la computadora muy rápido, sin indicar dónde ocurrían los intervalos entre imágenes. Eso sería el equivalente de leer una oración muy larga sin espacios entre las palabras. Algo así sería difícil de leer, pero una vez que insertemos los espacios, aparecen las palabras individuales y es mucho más comprensible.
+Pero ¿qué pasa si hacemos trampa? Utilizando un sensor, podemos decirle a la computadora el momento en que sale la imagen. De ese modo, la onda cerebral deja de ser un flujo continuo de información, y en cambio se vuelven unidades individuales de significado. Vamos a hacer un poquito más de trampa, usando solo dos de las categorías. Veamos si podemos leer la mente en tiempo real.
+En este nuevo experimento, lo restringimos un poco más para saber el momento en que sale la imagen, y limitamos las categorías a solo "cara" y "paisaje".
+Nathan: Cara. Correcto. Paisaje. Correcto.
+GG: Así que cada vez que aparece la imagen, sacamos una foto del momento en que sale y desciframos las ondas del EEG. Está mejorando.
+Nathan: Sí. Cara. Correcto.
+GG: Entonces sí, hay información en la señal del EEG, nada más la tuvimos que alinear con la apariencia de la imagen.
+Nathan: Paisaje. Correcto. Cara. Sí.
+GG: Esto significa que sí, hay información presente, y si sabemos el momento en que apareció la imagen, podemos determinar qué tipo de imagen era, posiblemente, o por lo menos en promedio, observando estos potenciales activados.
+Nathan: Exactamente.
+GG: Si me hubieras dicho al principio que esto era posible, habría dicho que no hay manera. No creí que fuera posible.
+¿De verdad funcionó nuestro experimento de lectura del pensamiento? Sí, pero tuvimos que hacer mucha trampa. Al final, puedes encontrar algunas cosas interesantes en el EEG, por ejemplo, si estás mirando la cara de alguien. Pero está bastante limitado. Quizás se harán grandes avances en el aprendizaje automático y algún día podremos descifrar lo que pasa en nuestros pensamientos. Pero por ahora, cuando una compañía dice que pueden emplear tus ondas cerebrales para poder controlar aparatos, es tu derecho —es tu obligación— ser escéptico.
+TED.com translations are made possible by volunteer translators. Learn more about the Open Translation Project.
+© TED Conferences, LLC. All rights reserved.

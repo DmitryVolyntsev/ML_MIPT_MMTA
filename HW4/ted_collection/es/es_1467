@@ -1,0 +1,35 @@
+Tenía tan solo 9 años cuando mi abuelo me contó por primera vez los horrores que había visto 6 años antes cuando 39 personas murieron en una estampida humana en nuestro pueblo, Nasik, en India. Fue en la kumbhamela de Nasik de 2003, una de las reuniones religiosas más grandes del mundo. Cada 12 años, más de 30 millones de hindúes devotos llegan a nuestra ciudad, construida para solo 1,5 millones de personas, y se quedan unos 45 días. Su objetivo principal es purgar los pecados bañándose en el río Godavari. Y es muy fácil que ocurran estampidas porque una multitud de alta densidad se mueve a un ritmo lento. Aparte de Nasik, este evento ocurre en otros tres lugares de India, con variable frecuencia, y entre 2001 y 2014, se perdieron más de 2400 vidas en estampidas durante estos eventos. Lo que más me entristecía era ver a gente a mi alrededor que se resignaba al destino de la ciudad al presenciar las aparentemente inevitables muertes de decenas de personas en cada kumbhamela.
+Yo busqué la forma de cambiarlo. y pensé, ¿por qué no trato de encontrar una solución? Porque yo sabía que estaba mal. Habiendo aprendido a codificar desde joven y siendo un inventor, consideré una loca idea...
+(Risas)
+[Los inventores siempre encuentran cómo]
+Yo consideré la loca idea de construir un sistema que ayudaría a regular el flujo de gente para usarlo en la próxima kumbhamela de 2015, para que ocurran menos estampidas y, con suerte, menos muertes.
+Parecía una misión imposible, un sueño demasiado grande, especialmente para un chico de 15 años, y, sin embargo, ese sueño se convirtió en una realidad en 2015, cuando no solo logramos reducir las estampidas y su intensidad, sino en la que marcamos al 2015 por haber sido la primer kumbhamela de Nasik sin ninguna estampida.
+(Aplausos)
+Fue la primera vez en la historia documentada que no ocurrieron víctimas en este evento.
+¿Cómo lo hicimos? Todo empezó cuando me uní a un taller de innovación del laboratorio MIT Media Lab en 2014 llamado el Kumbhathon que buscaba resolver desafíos a gran escala de la kumbhamela.
+Descubrimos que para resolver el problema de la estampida, teníamos que saber solo tres cosas: la cantidad de gente, el lugar, y la tasa de flujo de gente por minuto. Empezamos a buscar tecnologías que nos ayudaran con estas tres cosas. ¿Es posible distribuir fichas de radiofrecuencia para identificar gente? Calculamos que sería muy caro e impráctico distribuir 30 millones de etiquetas. ¿Se pueden usar las cámaras de CCTV para procesar las imágenes? También muy caro en esa escala, junto a la desventaja de no ser portátil y de ser inútil bajo la lluvia, algo muy común en una kumbhamela. ¿Podemos usar los datos de la torre de telefonía móvil? Parece ser la perfecta solución, y lo más gracioso es que la mayoría de la gente no lleva móviles en eventos como kumbhamela. Además, los datos no habrían sido lo suficientemente precisos para nosotros. Queríamos algo que funcionara en tiempo real, que fuera barato, durable y hermético, y que los datos pudieran extraerse para ser procesados con facilidad.
+Así fue que constuimos a Ashioto, que significa "huellas" en japonés, ya que consta de una estera portátil que tiene sensores de presión que puede contar la cantidad de gente que la atraviesa, y envía los datos por Internet al avanzado software de análisis de datos que creamos. Los posibles errores, como el conteo excesivo o pasos de más, fueron superados con nuestros inventos. La anchura óptima de la estera fue calculada como de 45 cm, una vez que probamos distintas variantes y observamos el paso promedio de cada persona. Sino, la gente hubiera podido pasar el sensor por alto. Empezamos con una prueba de concepto construida en tres días, hecha de cartón y papel de aluminio.
+(Risas)
+Funcionó, de veras. Construimos otro con paneles de aluminio y placas piezoeléctricas, que son placas que generan un pequeño pulso eléctrico bajo presión. Lo probamos en 30 sitios públicos pilotos, en restaurantes muy ajetreados, en centros comerciales, templos, etc. para ver como reaccionaba la gente. Y la gente nos dejó hacer estas pruebas porque estaban muy ilusionadas al ver tratar de resolver los problemas locales. Yo tenía 15 años y la gente de mi equipo unos veintitantos.
+Cuando los sensores eran de colores, les daban miedo y nos preguntaban cosas como: "¿Me electrocutaré si piso esto?"
+(Risas)
+O, si era muy obvio que había un sensor electrónico en el suelo, saltaban por encima.
+(Risas)
+Por eso decidimos diseñar una tapa para el sensor para que la gente no se preocupara por lo que había en el suelo.
+Así que después de experimentar un poco decidimos usar un sensor industrial, usado como un gatillo de seguridad en áreas peligrosas como el sensor, y una lona de goma negra de neopreno de tapa. Ahora, otro beneficio añadido de usar goma negra era que el polvo naturalmente se acumula sobre la superficie, eventualmente camuflándolo con el suelo. También teníamos que asegurarnos de que el sensor superara 12 milímetros. Sino la gente podía tropezarse, que en sí mismo causaría estampidas.
+(Risas)
+No queremos que pase eso.
+(Risas)
+Así que pudimos diseñar un sensor que solo tenía 10 milímetros de grosor.
+Ahora los datos son enviados al servidor en tiempo real, y se traza un mapa de las temperaturas, teniendo en cuenta los dispositivos activos en la tierra. Las autoridades podrían ser alertadas si la multitud se ralentizaba o si la densidad de las multitudes llegaba a un umbral inaceptable.
+Instalamos cinco de estas alfombras en la kumbhamela de Nasik de 2015, y contó a más de medio millón de personas en 18 horas, garantizando la disponibilidad de los datos en tiempo real en varios puestos de control, asegurando un flujo seguro de gente.
+Así que este sistema, eventualmente, con otras innovaciones, es lo que ayudó a prevenir las estampidas en ese festival.
+El código usado por Ashioto durante la kumbhamela pronto estará a disposición del público, libre para ser usado por todos. Me alegraría si alguien usara este código para hacer más seguras muchas más reuniones.
+El tener este éxito en la kumbhamela me ha inspirado para ayudar a otros que también pueden sufrir de estampidas. El diseño del sistema lo hace adaptable para casi todo tipo de evento que involucre una reunión organizada de gente. Y mi nuevo sueño es mejorar, adaptar y desplegar el sistema en todo el mundo para evitar la pérdida de personas y asegurar su flujo seguro, porque cada alma humana es preciosa, ya sea en un concierto o partido, la kumbhamela de Allahabad, el Hajj en La Meca, la procesión chiita a Karbala o en la Ciudad del Vaticano.
+Entonces, ¿qué piensan todos, podemos hacerlo?
+Público: ¡Sí!
+Gracias.
+(Vítores)
+(Aplausos)
+TED.com translations are made possible by volunteer translators. Learn more about the Open Translation Project.
+© TED Conferences, LLC. All rights reserved.
